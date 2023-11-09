@@ -49,7 +49,7 @@ for idx_1 = 1:3
                                     file_path, metavariable, p1, ...
                                     p2, start_day, number_days);
     small_image_size = small_RefRaster.RasterSize;
-
+    
     multi_target_rgb_shape_mask = zeros(small_image_size(1), small_image_size(2), 3);
     disp('location:')
     for idx = 1:table_size(1)
