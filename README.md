@@ -10,3 +10,5 @@ The driving theory is that increased melt rates should be associated with increa
 The spatial data obtained by Ned Bair is quite large.  So several steps have been taken to reduce these data into chunks managable by an average personal computer.   Furthermore some scripts for analysis are
 more easily done in MatLab and other in Python.  For this work I shall be using both languages (and maybe even shome shell scripts).   I apologize to my future self and anyone interested in this work.  Good luck 
 and god speed.
+
+##ADD LINK TO WHERE NED BAIR's DADA IS
