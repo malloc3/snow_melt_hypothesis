@@ -13,7 +13,7 @@ save_file_path = "/Users/Cannon/Documents/School/UCSB/Briggs Lab/Thaw_Rate_Hypot
 
 
 % The melt data desired (options 'sweHybrid' 'melt' 'swe')
-metavariable = 'sweHybrid';
+metavariable = 'melt';
 
 %Dates.  Should be improved but for now 1 is like late summer early fall
 start_day = 1;
@@ -27,7 +27,7 @@ ROI_melts = [];
 dates = [];
 
 save_file = fullfile(save_file_path, strcat(string(datetime('today')), metavariable, '.csv'));
-disp(save_file_path)
+disp(save_file)
 for idx_1 = 1:3
    file_path = file_paths(idx_1);
    small_dates = h5readatt(file_path, '/', 'MATLABdates');
