@@ -5,6 +5,10 @@ These Scripts are highly dependent on Ned Bair's work from https://github.com/ed
 Some of Ned Bairs scripts have been adapted or otherwise used to reanalyze his data and combine it with the Ribbitr data to determine how snow melt in the sierras is associed with Mountain Yellow Legged Frog
 population health in the eastern sierras.
 
+The raw data can be downloaded here:
+ftp://ftp.snow.ucsb.edu/pub/org/snow/products/ParBal/Sierra/
+
+
 The driving theory is that increased melt rates should be associated with increased rates of BD infection.   
 
 The spatial data obtained by Ned Bair is quite large.  So several steps have been taken to reduce these data into chunks managable by an average personal computer.   Furthermore some scripts for analysis are
